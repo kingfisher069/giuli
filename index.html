@@ -12,6 +12,7 @@
     rel="shortcut icon" type="image/x-icon" />
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -75,7 +76,7 @@
       </div>
 
       <div class="row g-5">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="400">
           <a href="gaming-masters.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -89,7 +90,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="800">
           <a href="the-future-of-sports.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -103,7 +104,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="800">
           <a href="experience-consulting.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -117,7 +118,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="400">
           <a href="omniturm.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -131,7 +132,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="600">
           <a href="hirsch.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -145,7 +146,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="800">
           <a href="merck350.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -159,7 +160,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="400">
           <a href="hall-of-fame.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -173,7 +174,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="600">
           <a href="nintendo-switch.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -187,7 +188,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="800">
           <a href="videos.html">
             <div class="project-card mb-4">
               <div class="project-image"
@@ -208,7 +209,7 @@
 
 
   <!-- About me -->
-  <section class="about-me mb-10" id="about">
+  <section class="about-me mb-10" id="about" data-aos="fade" data-aos-duration="800">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -236,7 +237,7 @@
   </section>
 
   <!-- Clients -->
-  <section class="clients mb-10">
+  <section class="clients mb-10" data-aos="fade" data-aos-duration="800">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -256,7 +257,7 @@
   </section>
 
   <!-- Experience -->
-  <section class="Experience mb-10">
+  <section class="Experience mb-10" data-aos="fade" data-aos-duration="800">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12 mb-5">
@@ -300,7 +301,7 @@
   </section>
 
   <!-- Skills -->
-  <section class="skills mb-10">
+  <section class="skills mb-10" data-aos="fade" data-aos-duration="800">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12 mb-5">
@@ -337,8 +338,8 @@
     </div>
   </section>
 
-  <!-- Skills -->
-  <section class="skills mb-10">
+  <!-- Awards -->
+  <section class="skills mb-10" data-aos="fade" data-aos-duration="800">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12 mb-5">
@@ -362,7 +363,7 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="mb-10">
+  <section id="contact" class="mb-10" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
       <div class="contact text-center rounded-3">
         <h1 class="display-3 hl1 noshow" style="margin-bottom: 0.5em;">Let’s connect!</h1>
@@ -418,6 +419,12 @@
     // Event-Listener für alle vorhandenen Buttons hinzufügen
     toggles.forEach(btn => btn.addEventListener('click', toggleTheme));
   </script>
+
+  <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
